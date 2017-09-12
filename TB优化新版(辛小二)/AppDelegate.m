@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "xzzViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    /*设置入口*/
+    xzzViewController * vc = [[xzzViewController alloc]init];
+    self.window.rootViewController = vc;
     return YES;
 }
 

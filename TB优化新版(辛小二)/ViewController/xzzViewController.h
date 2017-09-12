@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  xzzViewController.h
 //  TB优化新版(辛小二)
 //
 //  Created by 辛忠志 on 2017/9/11.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface xzzViewController : UIViewController
 
 @end
-
